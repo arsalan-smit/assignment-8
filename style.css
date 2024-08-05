@@ -1,0 +1,290 @@
+*{
+    border: border-box;
+    margin: 0px 0px 0px 0px;
+    padding: 0px 0px 0px 0px;
+}
+.form-head{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.header{
+    position: relative;
+}
+.logo{
+    width: 1130px;
+    height: 220px;
+    background-image: url(img.jpg);
+    background-size: cover;
+    opacity: 0.1;
+    border-bottom: 1px solid black;
+}
+.saylani-logo{
+    background-image: url(SL-logo.png);
+    background-size: 100% 100%;
+    height: 120px;
+    width: 230px;
+    position: absolute;
+    top: 0.3px;
+    left: 450px;
+}
+.facebook,.Instagram,.Youtube{
+    background-size: 100% 100%;
+    height: 30px;
+    width: 30px;
+    position: absolute;
+    top: 100px;
+}
+.facebook{
+    background-image: url(fb.png);
+    left: 120px;
+}
+.Instagram{
+    background-image: url(Ins.png);
+    left: 170px;
+}
+.Youtube{
+    background-image: url(YT.png);
+    left: 220px;
+}
+.heading{
+    position: absolute;
+    top: 100px;
+    left: 390px;
+}
+.portal{
+    position: absolute;
+    top: 100px;
+    right: 110px;
+    width: 120px;
+    height: 22px;
+    padding: 5px 15px 4px 15px;
+    border-radius: 15px;
+    border:  1px solid #0D6DB7;
+}
+.portal i{
+    font-size: 14px;
+    color: #0D6DB7;
+}
+.portal:hover{
+    background-color: white;
+}
+.portal a{
+    text-decoration: none;
+    color:#0D6DB7;
+}
+.para{
+    color: rgb(77, 75, 75);
+    font-size: 16px;
+    position: relative;
+    bottom: 80px;
+    text-align: center;
+    font-weight: 500;
+}
+.registration,.Download-ID,.result{
+    height: 22px;
+    padding: 8px 16px 8px 16px;
+    border: 1px solid lightgrey;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(241, 241, 241, 0.836);
+}
+.registration{
+    width: 80px;
+    left: 400px;
+    bottom: 60px;
+}
+.Download-ID{
+    width: 125px;
+    left: 510px;
+    bottom: 100px;
+}
+.result{
+    width: 40px;
+    left: 670px;
+    bottom: 140px;
+}
+.link-color{
+    color: #0D6DB7;
+    text-decoration: none;
+}
+.download-result{
+    position: relative;
+    bottom: 120px;
+    left: 400px;
+}
+.download-result p{
+    padding: 5px 5px 5px 5px;
+    color: #0D6DB7;
+}
+.download-result input{
+    height: 22px;
+    width: 550px;
+    padding: 15px 15px 15px 15px;
+    border-radius: 4px;
+    border: 1px solid #8DC63F;
+}
+.download-result input:hover{
+    border: 1px solid #0D6DB7;
+}
+.button{
+    width: 582px;
+    height: 41px;
+    background-color: #0D6DB7;
+    position: relative;
+    bottom: 100px;
+    left: 400px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 4px;
+}
+.button button{
+    background-color: #0D6DB7;
+    border: none;
+    color: white;
+}
+/* form start */
+.form{
+    height: 1300px;
+    width: 1000px;
+    position: relative;
+    bottom: 137px;
+    left: 190px;
+    /* border: 3px solid black;
+    background-color: pink;  */
+}
+.select-city,.Select-course,.Select-campus,.Select-preference,.full-name,.Father-name,.Email,.Phone,.CNIC,.Father-CNIC,.Date,.Select-gender,.Address,.Last-qualification,.Laptop-requrment{
+    position: relative;
+}
+.select-city{
+    top: 20px;
+    left: 10px;
+}
+.Select-course{
+    bottom: 65px;
+    left: 505px;
+}
+.Select-campus{
+    bottom: 55px;
+    left: 10px;
+}
+.Select-preference{
+    bottom: 140px;
+    left: 505px;
+}
+.full-name{
+    bottom: 130px;
+    left: 10px;
+}
+.Father-name{
+    bottom: 215px;
+    left: 505px;
+}
+.Email{
+    bottom: 200px;
+    left: 10px;
+}
+.Phone{
+    bottom: 285px;
+    left: 505px;
+}
+.CNIC{
+    bottom: 270px;
+    left: 10px;
+}
+.Father-CNIC{
+    bottom: 355px;
+    left: 505px;
+}
+.Date{
+    bottom: 340px;
+    left: 10px;
+}
+.Select-gender{
+    bottom: 427px;
+    left: 505px;
+}
+.Address{
+    bottom: 410px;
+    left: 10px;
+}
+.Last-qualification{
+    bottom: 390px;
+    left: 10px;
+}
+.Laptop-requrment{
+    bottom: 370px;
+    left: 10px;
+}
+.color-set{
+    padding: 5px 5px 5px 5px;
+    color: #0D6DB7;
+}
+.form-select{
+    height: 57px;
+    width: 460px;
+    border: 1.5px solid #8DC63F ;
+    padding: 11px 0px 11px 10px;
+    border-radius: 6px;
+    color: lightgray;
+}
+.form-select:hover{
+    border: 1.5px solid #0D6DB7 ;
+}
+#input{
+    height: 35px;
+    width: 450px;
+}
+#full-input{
+    height: 35px;
+    width: 950px;
+}
+#full-select{
+    height: 57px;
+    width: 960px;
+}
+.pic{
+    position: relative;
+    bottom: 350px;
+    left: 13px;
+}
+.pic input{
+    width: 90px;
+    height: 90px;
+    border: 1px dashed lightgray;
+    background-color: rgb(238, 238, 238);
+}
+.pic-content{
+    position: relative;
+    bottom: 90px;
+    left: 108px;
+    font-size: 14px;
+    color: rgb(78, 78, 78);
+}
+ul li{
+    margin-top: 2px;
+}
+.form-discription{
+    position: relative;
+    bottom: 400px;
+    left:10px;
+    color: rgb(78, 78, 78);
+}
+ol li{
+    margin-top: 5px;
+}
+.button1{
+    width: 990px;
+    height: 41px;
+    background-color: #0D6DB7;
+    position: relative;
+    bottom: 380px;
+    left: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 4px;
+}
